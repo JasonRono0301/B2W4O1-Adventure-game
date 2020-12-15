@@ -10,11 +10,11 @@ body{
     border: 2px black solid;
     width: 800px;
     height: 800px;
-    padding-left: 400px;
+    padding-left: 10px;
 }
 
 #description{
-    line-height: 21px;
+    line-height: 20px;
 }
 
 button{
