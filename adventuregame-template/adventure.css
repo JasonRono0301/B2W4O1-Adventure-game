@@ -5,21 +5,40 @@ body{
 
 #game-container{
     position: relative;
+    background-color: black;
     top: 50px;
     left: 200px;
     border: 2px black solid;
-    width: 800px;
+    width: 1000px;
     height: 800px;
     padding-left: 10px;
 }
 
-#description{
-    line-height: 20px;
+#title{
+    color: white;
 }
 
-button{
+#description{
+    position: absolute;
+    color: white;
+    display: block;
+    position: relative;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+#game-buttons{
+    position: relative;
+}
+
+#game-buttons > button{
     width: 120px;
     height: 50px;
     border: 2px black solid;
     background-color: white;
+}
+
+#image{
+    position: absolute;
+    left: 10px;
 }
